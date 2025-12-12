@@ -126,3 +126,4 @@ class ArbolArchivos:
         for hijo in nodo.children:
             total += self.calcular_tamano(hijo)
         return total
+
