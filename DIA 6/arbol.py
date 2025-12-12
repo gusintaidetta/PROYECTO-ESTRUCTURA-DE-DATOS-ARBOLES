@@ -6,7 +6,7 @@ class ArbolArchivos:
         self.raiz = Nodo(nombre="/", tipo="carpeta")
         self.trie = Trie() 
 
-    # ... (Mantén tu método buscar_nodo_por_ruta igual) ...
+   
     def buscar_nodo_por_ruta(self, ruta: str) -> Nodo:
         if ruta == "/":
             return self.raiz
@@ -129,3 +129,4 @@ class ArbolArchivos:
         for hijo in nodo.children:
             total += self.calcular_tamano(hijo)
         return total
+
