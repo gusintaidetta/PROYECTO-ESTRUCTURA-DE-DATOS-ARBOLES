@@ -35,3 +35,4 @@ class Nodo:
     def es_carpeta(self) -> bool:
         """Comprueba si el nodo es de tipo 'carpeta'."""
         return self.tipo == 'carpeta'
+
