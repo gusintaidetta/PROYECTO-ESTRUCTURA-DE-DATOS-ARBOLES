@@ -4,7 +4,7 @@ from arbol import ArbolArchivos
 class TerminalShell:
     def __init__(self):
         self.arbol = ArbolArchivos()
-        self.ruta_actual = "/"     # Siempre empezamos en la raíz
+        self.ruta_actual = "/"     # Siempre empezamos en la raíz.
         self.papelera = []         # Lista temporal para archivos borrados (Papelera)
 
     def limpiar_pantalla(self):
@@ -183,3 +183,4 @@ class TerminalShell:
 if __name__ == "__main__":
     app = TerminalShell()
     app.iniciar()
+
